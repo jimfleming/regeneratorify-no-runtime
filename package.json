@@ -1,7 +1,7 @@
 {
-  "name": "regeneratorify-standalone",
+  "name": "regeneratorify-no-runtime",
   "version": "0.0.1",
-  "description": "browserify transform for the regenerator library (doesn't include regenrator runtime)",
+  "description": "browserify transform for the regenerator library (doesn't include regenerator runtime in output)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,10 +20,15 @@
     "desugaring",
     "ES6"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rads/regeneratorify-no-runtime"
+  },
   "author": "Alberto Miorin <github@ululi.it>",
+  "contributors": ["Radford Smith <contact@radsmith.com>"],
   "license": "BSD-2-Clause",
   "dependencies": {
-    "regenerator": "~0.2.5",
+    "regenerator": "~0.2.11",
     "through": "~2.3.4"
   }
 }

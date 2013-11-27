@@ -1,15 +1,17 @@
-# regeneratorify
+# regeneratorify-no-runtime
 
 browserify v2 plugin for regenerator
 
+This is similar to [regeneratorify](https://github.com/amiorin/regeneratorify), but it does **not** include the Regenerator runtime.js file bundled with the output.
+
 ## Install
 ```
-$ npm install regeneratorify
+$ npm install regeneratorify-no-runtime
 ```
 
 ## Use
 ```
-$ browserify -t regeneratorify main.js > bundle.js
+$ browserify -t regeneratorify-no-runtime main.js > bundle.js
 ```
 
 ## Credits

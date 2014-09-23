@@ -28,7 +28,7 @@
   "contributors": ["Radford Smith <contact@radsmith.com>"],
   "license": "BSD-2-Clause",
   "dependencies": {
-    "regenerator": "~0.2.11",
-    "through": "~2.3.4"
+    "regenerator": "~0.6.5",
+    "through": "~2.3.6"
   }
 }
